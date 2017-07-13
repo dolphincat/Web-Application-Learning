@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <title>Portfolio</title>
+  <style media="screen">
+    .navbar-inverse {
+      background: #2c3e50;
+      color: white;
+    }
+
+    .navbar-inverse .navbar-brand,
+    .navbar-inverse a {
+      color: white;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+      color: white;
+    }
+
+    div a {
+      color: white;
+    }
+
+    p {
+      font-size: 0.8em;
+    }
+
+    .image-name {
+      font-size: 20px;
+      border: 2px solid #2c3e50;
+      font-weight: 5.0em;
+      background-color: #2c3e50;
+      margin: 50% 0 20% 0;
+      padding: 2px;
+    }
+
+    body {
+      padding-top: 70px;
+      font: "Avenir";
+    }
+
+    .jumbotron {
+      margin-bottom: 0;
+      padding: 2%;
+    }
+
+    #education {
+      background-color: #CCFFE5;
+      text-align: center;
+    }
+
+    #interest {
+      background-color: #9966FF;
+      text-align: center;
+    }
+
+    #skills {
+      background-color: orange;
+      text-align: center;
+    }
+
+    .panel-footer.panel-custom {
+      background-color: #2c3e50;
+      color: white;
+    }
+
+
+    .name {
+      font-weight: 500;
+      letter-spacing: normal;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a href="#" class="navbar-brand name">DORRY</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#education">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://cdn.pixabay.com/photo/2014/02/01/17/28/apple-256262_1280.jpg" alt="Education">
+          <div class="carousel-caption image-name"><a href="#education">Education</a></div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://cdn.pixabay.com/photo/2017/03/31/10/56/waffles-2190961_1280.jpg" alt="Cooking">
+          <div class="carousel-caption image-name"><a href="#interest">Cooking</a></div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://cdn.pixabay.com/photo/2014/07/31/22/50/photographer-407068_1280.jpg" alt="Traveling">
+          <div class="carousel-caption image-name"><a href="#interest">Traveling</a></div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://cdn.pixabay.com/photo/2017/02/28/10/36/learn-2105410_1280.jpg" alt="Skills">
+          <div class="carousel-caption image-name"><a href="#skills">Skills</a></div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://cdn.pixabay.com/photo/2014/08/16/18/17/book-419589_1280.jpg" alt="Reading">
+          <div class="carousel-caption image-name"><a href="#interest">Reading</a></div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://cdn.pixabay.com/photo/2015/05/31/15/18/technology-792180_1280.jpg" alt="Project and Experience">
+          <div class="carousel-caption image-name"><a href="#Skills">Project and Experience</a></div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <div class="container">
+    <div class="jumbotron" id="education">
+      <h1><i class="fa fa-camera-retro"></i></span> Education Background </h1>
+      <p>B.S. in Mathematics</p>
+      <p>M.S. in Information System</p>
+
+    </div>
+    <div class="jumbotron" id="skills">
+      <h1><i class="fa fa-camera-retro"></i></span> Skills</h1>
+      <p>Front End developer skills: HTML, CSS, javascript, JQuery, Bootstrap, Ajax, AngularJS</p>
+      <p>Back End Developer Skills: Java, Python</p>
+      <p>Data Related: PHP, MySQL, R, MatLab, SAS</p>
+      <p>Coming soon....</p>
+    </div>
+    <div class="jumbotron" id="interest">
+      <h1><i class="fa fa-camera-retro"></i></span> Interests</h1>
+      <p>Reading, Cooking and Traveling</p>
+    </div>
+  </div>
+  </div>
+</body>
+
+<div class="panel-footer panel-custom" id="contact">
+  <div class="jumbotron" style="background:#2c3e50;">
+    <h1><i class="fa fa-camera-retro"></i></span> Contact me</h1>
+    <p>Email: dorryyue2017@gmail.com</p>
+  </div>
+</div>
+
+</html>

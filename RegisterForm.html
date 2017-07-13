@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Register Form</title>
+  <style type="text/css">
+    h1 {color:purple;}
+    div{color:orange;}
+  </style>
+  <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+  <h1>Register</h1>
+  <form action="">
+    <label for="firstname">First Name:</label>
+    <input id="firstname" name="firstname" type="text">
+
+
+    <label for="lastname">Last Name:</label>
+    <input id="lastname" name="lastname" type="text">
+
+
+    <div>
+      <label for="male">Male</label>
+      <input id="male" name="sex" type="radio" value="male">
+
+      <label for="female">Female</label>
+      <input id="female" name="sex" type="radio" value="female">
+
+      <label style="color:blue;" for="other">Other</label>
+      <input id="other" name="sex" type="radio" value="other">
+
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input name="Email" id="email" type="email" placeholder="your email address" required>
+
+      <label for="password">Password:</label>
+      <input name="password" id="password" type="password" pattern=".{5,10}" required title="password should be 5 to 10 characters">
+
+    </div>
+
+    <div>
+      <label>
+      Birthday:
+      <select name="month">
+          <option>Month</option>
+          <option>Jan</option>
+          <option>Feb</option>
+          <option>March</option>
+
+        </select>
+      <select name="day">
+        <option>Day</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+
+      </select>
+      <select  name="year">
+        <option>Year</option>
+        <option>2000</option>
+        <option>2001</option>
+        <option>2002</option>
+
+      </select>
+      </label>
+    </div>
+
+    <label for="terms">I agree to the terms and conditions</label>
+    <input id="terms" name="terms" type="radio" required>
+
+    <button>Submit</button>
+  </form>
+</body>
+
+</html>

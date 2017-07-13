@@ -1,0 +1,42 @@
+body {
+  width:50%;
+  border: 20px solid lightgray;
+  padding:20px;
+  font-family: "Source Sans Pro";
+  margin:2%  auto;
+}
+
+h1 {
+  font-weight: 800;
+  font-variant-alternates: normal;
+}
+
+h2 {
+  font-size: 15;
+  color:steelblue;
+  font-weight:100;
+  font-variant-caps: all-small-caps;
+ letter-spacing:0.2em;
+}
+
+hr::before{
+    padding: 0;
+    border: 0;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr::after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+.first {
+  border-left: 2px solid gray;
+
+}
